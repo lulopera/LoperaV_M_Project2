@@ -2,3 +2,115 @@
 {
 	display: none;
 }
+
+#siteContainer
+{
+	width: 960px;
+}
+
+#topBar
+{
+	background-color: #e19704;
+	height: 40px;
+}
+
+#mainHeader
+{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#mainHeader h2
+{
+	position:absolute;
+	top: 80%;
+	left: 60%;
+	transform: translate (-50%, -50%);
+	font-size: 48px;
+}
+
+#introduction
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#introText
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+
+#introGuiness
+{
+	margin-left: 60px;
+	margin-right: 40px;
+}
+
+#shots
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#greenHarpoon
+{
+	margin-top: 100px;
+	margin-bottom: 40px;
+
+}
+
+#brewery
+{
+	position: relative;
+	text-align: center;
+	color: black;
+	margin-top: 40px;
+}
+
+#brewery article
+{
+	position:absolute;
+	top: 20%;
+	left: 60%;
+	transform: translate (-50%, -50%);
+	font-size: 14px;
+}
+
+#brewersReserve
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#conclusions
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#conclusionsText
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#footer
+{
+	background-color: #e19704;
+	height: 20px;
+}
