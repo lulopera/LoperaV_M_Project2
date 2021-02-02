@@ -1,7 +1,58 @@
+@font-face 
+{
+    font-family: 'nunito_sanslight';
+    src: url('../fonts/nunitosans-light-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'bebasregular';
+    src: url('../fonts/bebas-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebas-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('../fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2
+{
+	font-family: 'bebasregular', Helvetica, serif;
+	font-size: 30px;
+	color: #524e4e;
+}
+
+p
+{
+	font-family: 'nunito_sanslight', avenir, serif;
+	font-size: 20px;
+	color: #757373;
+	margin-top: 40px;
+	letter-spacing: 1px;
+	line-height: 1.6;
+}
+
+p:first-letter
+{
+	font-size: 28px;
+	color: #e19704;
+}
+
 .hidden
 {
 	display: none;
 }
+
 
 #siteContainer
 {
@@ -21,20 +72,23 @@
 	color: white;
 }
 
-#mainHeader h2
+#mainHeader h1
 {
 	position:absolute;
 	top: 80%;
-	left: 60%;
-	transform: translate (-50%, -50%);
-	font-size: 48px;
+	left: 65%;
+	font-size: 60px;
+	font-family: 'bebasregular', times, serif;
+	color: white;
 }
 
 #introduction
 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 #introText
@@ -42,16 +96,26 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	margin-top: 100px;
-	margin-bottom: 40px;
-	margin-left: 40px;
+	margin-bottom: 60px;
+	margin-left: 60px;
+	margin-right: 40px;
+	margin-top: 60px;
+}
+
+
+#introText p
+{
+	font-family: 'open_sanslight_italic', avenir, serif;
+	font-size: 12px;
+	line-height: 20px;
 }
 
 #introGuiness
 {
-	margin-left: 60px;
+	margin-left: 100px;
 	margin-right: 40px;
 }
+
 
 #shots
 {
@@ -62,10 +126,11 @@
 
 #greenHarpoon
 {
-	margin-top: 100px;
+	margin-top: 60px;
 	margin-bottom: 40px;
-
+	margin-left: 40px;
 }
+
 
 #brewery
 {
@@ -75,13 +140,14 @@
 	margin-top: 40px;
 }
 
-#brewery article
+#brewery p
 {
 	position:absolute;
-	top: 20%;
-	left: 60%;
-	transform: translate (-50%, -50%);
+	top: 50%;
+	left: 50%;
 	font-size: 14px;
+	font-family: 'open_sanslight_italic';
+	line-height: 30px;
 }
 
 #brewersReserve
@@ -100,6 +166,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+
 }
 
 #conclusionsText
@@ -107,10 +174,18 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+#conclusions img
+{
+	margin-top: 60px;
 }
 
 #footer
 {
 	background-color: #e19704;
-	height: 20px;
+	height: 60px;
 }
