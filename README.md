@@ -16,7 +16,7 @@
 	- assets folder (everything you used in the creaHon of this project, wireframe, design brief, design files) 
 	- includes folder
 
-## Addi6onal Components
+## Additional Components
  
 	-For this assignment you must only use the text and images provided.
 	-Wireframe and Design file are required.
